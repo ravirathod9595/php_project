@@ -7,7 +7,7 @@
 	    <h2>Candidate Information Form</h2>
 	    <ul>
 		<?php
-  		    $json = file_get_contents('http://10.102.175.89:80');
+  		    $json = file_get_contents('http://10.105.20.168:80');
   		    $obj = json_decode($json);
 		    $products = $obj->products;
 		    foreach ($products as $product) {
